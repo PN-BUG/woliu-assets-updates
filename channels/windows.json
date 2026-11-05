@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "appId": "com.woliu.assets",
+  "platform": "windows",
+  "channel": "preview",
+  "version": "0.1.1",
+  "releaseUrl": "https://github.com/PN-BUG/woliu-assets-updates/releases/tag/windows-0.1.1",
+  "notes": "公开测试版。Windows 未签名；Android 使用调试签名。新增独立下载/更新入口、本地素材与表情管理、文件夹压缩和 Woliu 按需同步。安装由用户主动确认。依赖审计存在 8 高危和 4 中危告警；Android 真机、插件安装及正式网站发布仍待验收。",
+  "assets": [
+    {
+      "name": "woliu-assets-win-x64-0.1.1.exe",
+      "size": 171207918,
+      "sha256": "83043bee2c7c92edf8d68de827f052083507551cb1b95e475e24ffcfd4a8898d",
+      "kind": "installer",
+      "arch": "x64",
+      "url": "https://github.com/PN-BUG/woliu-assets-updates/releases/download/windows-0.1.1/woliu-assets-win-x64-0.1.1.exe"
+    },
+    {
+      "name": "woliu-assets-win-x64-0.1.1.zip",
+      "size": 222472449,
+      "sha256": "981bc79dab2e3fc1e83ab19317a67b1cb99489432fffd418c8e76cfcf17af995",
+      "kind": "portable",
+      "arch": "x64",
+      "url": "https://github.com/PN-BUG/woliu-assets-updates/releases/download/windows-0.1.1/woliu-assets-win-x64-0.1.1.zip"
+    }
+  ],
+  "source": {
+    "commit": "fa9d592f5f6950a1f8948b648e52528ad878ec6f",
+    "url": "https://github.com/PN-BUG/woliu-assets-updates/releases/download/source-0.1.1/woliu-assets-source-0.1.1.zip"
+  }
+}

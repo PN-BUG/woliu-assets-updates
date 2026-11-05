@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "appId": "com.woliu.assets",
+  "platform": "extension",
+  "channel": "preview",
+  "version": "0.2.1",
+  "releaseUrl": "https://github.com/PN-BUG/woliu-assets-updates/releases/tag/extension-0.2.1",
+  "notes": "公开测试版。Windows 未签名；Android 使用调试签名。新增独立下载/更新入口、本地素材与表情管理、文件夹压缩和 Woliu 按需同步。安装由用户主动确认。依赖审计存在 8 高危和 4 中危告警；Android 真机、插件安装及正式网站发布仍待验收。",
+  "assets": [
+    {
+      "name": "woliu-assets-extension-0.2.1.zip",
+      "size": 8607,
+      "sha256": "bf51da07a0dfac70a512af789ba66c1ebd22431e642563006674e20aed21a5b1",
+      "kind": "extension",
+      "arch": "any",
+      "url": "https://github.com/PN-BUG/woliu-assets-updates/releases/download/extension-0.2.1/woliu-assets-extension-0.2.1.zip"
+    }
+  ],
+  "source": {
+    "commit": "fa9d592f5f6950a1f8948b648e52528ad878ec6f",
+    "url": "https://github.com/PN-BUG/woliu-assets-updates/releases/download/source-0.1.1/woliu-assets-source-0.1.1.zip"
+  }
+}
