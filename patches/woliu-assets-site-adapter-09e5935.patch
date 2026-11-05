@@ -1,0 +1,15 @@
+--- a/integration/woliu/app/api/asset-vault/v1/[...path]/route.ts
++++ b/integration/woliu/app/api/asset-vault/v1/[...path]/route.ts
+@@ -1,9 +1,9 @@
+ import {createAssetService} from '@/lib/woliu-assets/asset-vault/service.mjs'
+ import {createAssetHandler} from '@/lib/woliu-assets/asset-vault/http.mjs'
+ import {createAssetStore} from '@/lib/woliu-assets/asset-vault/store.mjs'
+-import {createService} from '@/lib/meme-vault/server/service.mjs'
+-import {createSupabaseStore} from '@/lib/meme-vault/server/supabase-store.mjs'
+-import {createImageInspector} from '@/lib/meme-vault/server/image.mjs'
++import {createService} from '@/lib/woliu-assets/meme-vault/service.mjs'
++import {createSupabaseStore} from '@/lib/woliu-assets/meme-vault/supabase-store.mjs'
++import {createImageInspector} from '@/lib/woliu-assets/meme-vault/image.mjs'
+ import {getSupabaseAdminClient,getAuthenticatedUser,enforceAdminAccessExpiry} from '@/lib/supabase'
+ import {getProfilePermissions} from '@/lib/role-permissions'
+ import sharp from 'sharp'
